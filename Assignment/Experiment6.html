@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOPPING STORE</title>
+    <style>
+        .body,html,*{
+            margin: 0px;padding: 0px;
+        }
+        h1{
+            padding: 10px;
+            background-color: blue;
+            text-align: center;
+            width: 100%;
+            color: white;
+        }
+        #d1{
+            padding: 10px;
+            background-color: aliceblue;
+            display:flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+        }
+        #d1 img{
+            height: 175px;
+            width: 150px;
+        }
+        #bg1{
+            width: 100%;
+            height:auto;
+        }
+        #head2{
+            background-color: lightgray;
+            padding: 20px;
+        }
+        #T1{margin: auto;
+            margin-top: 10px;
+            background-color: lightblue;
+        }
+        #t1{
+            background-color: deepskyblue;
+        }
+        .container{
+            align-content: center;
+            justify-content: center;
+            gap: 20px;
+            display: flex;
+            flex-direction: row;
+            background-color: darkslateblue;
+        }
+        .card{
+            text-align: center;
+            font-style: bold;
+            color: darkgreen;
+            background-color: lightskyblue;
+            border: 3px;
+            border-radius: 3px;
+            margin: 10px;padding: 10px;
+            margin-bottom:auto;
+        }
+        .ATC{
+            background-color: blue;
+            color: white;
+            font-style: bold;
+            width: 200px;
+            position: relative;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>FASHION STORE</h1>
+    <div id="d1">
+        <img src="img.jpeg">
+        <img src="img4.jpeg">
+        <img src="img2.jpeg">
+        <img src="img3.jpeg">
+    </div>
+    <img src="" id="bg1">
+    <div id="head2">
+        <table id="T1" border="1" cellpadding="0" cellspacing="0" width="90%" height="200px">
+            <tr  align="center" id="t1">
+                <th>Festival</th>
+                <th>Discount</th>
+                <th>Starting Date</th>
+                <th>Ending Date</th>
+            </tr>
+            <tr>
+                <th>Independence Date</th>
+                <th>30% 40%</th>
+                <th>10 August</th>
+                <th>18 August</th>
+            </tr>
+            <tr>
+                <th>Diwali</th>
+                <th>40% 50%</th>
+                <th>10 November</th>
+                <th>21 November</th>
+            </tr>
+            <tr>
+                <th>Christmas</th>
+                <th>25% 40%</th>
+                <th>20 December</th>
+                <th>26 December</th>
+            </tr>
+            <tr>
+                <th>New Year</th>
+                <th>50% 60%</th>
+                <th>29 december</th>
+                <th>6 January</th>
+            </tr>
+        </table>
+    </div>
+    <h2>Fashion Store: The One-Stop Fashion Destination</h2>
+    <div class="container">
+        <div class="card">
+            <img src="img5.jpg">
+            <div class="Item">Shirts</div>
+            <div class="Price">MRP 99-499</div>
+            <div>This shirt is made from soft,<br>
+                breathable fabric that
+            <br>keeps you comfortable all day.</div>
+            <button class="ATC">Add to Cart</button>
+        </div>
+        <div class="card">
+            <img src="img6.jpg">
+            <div class="Item">Pants</div>
+            <div class="Price">MRP 199-2999</div>
+            <div>These pants are made from 
+            <br>durable,comfortable fabric that
+            <br>allows easy movement
+            <br>throughout the day.</div>
+            <button class="ATC">Add to Cart</button>
+        </div>
+        <div class="card">
+            <img src="img8.jpg" height="200px">
+            <div class="Item">Shoes</div>
+            <div class="Price">MRP 199-2999</div>
+            <div>These shoes are designed with
+            <br>a comfortable, cushioned sole that 
+            <br>supports your feet during long wear.</div>
+            <button class="ATC">Add to Cart</button>
+        </div>
+        <div class="card">
+            <img src="img7.jpg" size="200px">
+            <div class="Item">Coat</div>
+            <div class="Price">2999-5999</div>
+            <div>Suit is crafted from high-quality
+            <br>fabric with a sharp, tailored fit
+            <br>that enhances your formal look.</div>
+            <button class="ATC">Add to Cart</button>
+        </div>
+    </div>
+</body>
+</html>
