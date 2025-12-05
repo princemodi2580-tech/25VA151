@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /* body{
+            color: aqua;
+        } */
+        /* div p{
+            color:orange;
+        }
+        .box >p {
+            background-color: blue;
+        } */
+        div~p{
+            color:blueviolet;
+        }
+        a:hover{
+            color:red;
+            font-size:20px;
+        }
+        a:active{
+            color:green;
+        }
+        ul{
+            list-style:none;
+            display: fiex;
+        }
+        ul li{
+            margin:20px;
+            border-right: 1px solid green;
+            padding: 10px;
+        }
+        ul li:hover{
+            color:blue;
+        }
+        ul li:nth-child(5){
+            border-right: 0px;
+        }
+        .para:first-letter{
+            color:brown;font-size:large;
+        }
+        .para::first-line{
+            background-color: aqua;;
+        }
+        .para::after{
+            content:"Read More...";
+            color: red;
+            font-size:20px;
+        }
+    </style>
+</head>
+<body>
+    <!--CSS Combinators-->
+    <div class="box">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Ipsam nisi quisquam accusantium, dolores maiores magni incidunt 
+            explicabo maxime blanditiis velit vero sapiente dolore facilis ea laborum.
+            Deleniti repellat quia mollitia.
+        </p>
+        <div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Ipsam nisi quisquam accusantium, dolores maiores magni incidunt 
+                explicabo maxime blanditiis velit vero sapiente dolore facilis ea laborum.
+                Deleniti repellat quia mollitia.
+            </p>
+        </div>
+    </div>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Ipsam nisi quisquam accusantium, dolores maiores magni incidunt 
+        explicabo maxime blanditiis velit vero sapiente dolore facilis ea laborum.
+        Deleniti repellat quia mollitia.
+    </p>
+    <a href="table.html">Visit this link</a>
+    <ul>
+        <li><a href="www.google.com"></a>Home</li>
+        <li>Services</li>
+        <li>About</li>
+        <li>Gallery</li>
+        <li>Contact</li>
+    </ul>
+    <p class="para">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Ipsam nisi quisquam accusantium, dolores maiores magni incidunt 
+        explicabo maxime blanditiis velit vero sapiente dolore facilis ea laborum.
+        Deleniti repellat quia mollitia.
+    </p>
+</body>
+</html>
